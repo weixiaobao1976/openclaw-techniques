@@ -1,0 +1,11 @@
+{
+  "slug": "gh-ops",
+  "version": "1.0.0",
+  "openclaw": {
+    "emoji": "🐙",
+    "requires": { "bins": ["gh"] },
+    "install": [
+      { "id": "apt", "kind": "apt", "package": "gh", "label": "安装 GitHub CLI (apt)" }
+    ]
+  }
+}
